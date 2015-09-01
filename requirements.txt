@@ -6,3 +6,4 @@ gunicorn==19.3.0
 itsdangerous==0.24
 virtualenv==13.1.2
 wsgiref==0.1.2
+waitress==0.8.9
