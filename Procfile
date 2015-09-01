@@ -1,1 +1,1 @@
-web: waitress-serve --port=5000 lolitemsets:app
+web: waitress-serve --port=$PORT lolitemsets:app
