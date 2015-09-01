@@ -1,1 +1,1 @@
-web: gunicorn lolitemsets:app --log-file=-
+web: waitress-serve --port=5000 lolitemsets:app
